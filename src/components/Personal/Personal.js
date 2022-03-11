@@ -34,7 +34,7 @@ function Personal() {
             <ProjectCard
               imgPath={stars}
               isBlog={false}
-              title="Stars of the Now"
+              title="Stars of the Now, a novel"
               description="A fictionalized account of my youth spent searching for enlightment through a prolonged derangement of the senses."
               link="https://www.amazon.com/Stars-Now-Brian-Fox-ebook/dp/B00HZVJYHM"
             />
