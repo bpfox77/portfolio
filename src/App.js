@@ -7,7 +7,8 @@ import Projects from "./components/Projects/Projects";
 import Personal from "./components/Personal/Personal";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// change to hashrouteer for fleek
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";

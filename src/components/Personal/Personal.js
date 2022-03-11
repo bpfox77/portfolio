@@ -34,8 +34,8 @@ function Personal() {
             <ProjectCard
               imgPath={stars}
               isBlog={false}
-              title="The Virtual Wing"
-              description="Meta's first location based XR experience. I launched it with Tate Britian and Covid killed our MoMA launch unfortunately."
+              title="Stars of the Now"
+              description="A fictionalized account of my youth spent searching for enlightment through a prolonged derangement of the senses."
               link="https://www.amazon.com/Stars-Now-Brian-Fox-ebook/dp/B00HZVJYHM"
             />
           </Col>

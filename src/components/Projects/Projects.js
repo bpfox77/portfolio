@@ -27,16 +27,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={iw}
-              isBlog={false}
-              title="Infinite Window"
-              description="A patented codec to stream realtime from Unity or unreal. With a 3ms latency we enable instant photoreal connection to build any world you can imagine."
-              // link=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={virtualwing}
               isBlog={false}
               title="The Virtual Wing"
@@ -81,6 +71,16 @@ function Projects() {
               isBlog={false}
               title="Persona Designer"
               description="Utilizing GPT-3, Wit.ai and connecting to personality databases to define jungian archetypes we allow any business, celebrity or person to recreate their own personality in text through A.I. "
+              // link=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iw}
+              isBlog={false}
+              title="Infinite Window"
+              description="A patented codec to stream realtime from Unity or unreal. With a 3ms latency we enable instant photoreal connection to build any world you can imagine."
               // link=""
             />
           </Col>
