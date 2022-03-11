@@ -3,12 +3,15 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import virtualwing from "../../Assets/Projects/virtualwing.png";
+import iw from "../../Assets/Projects/iw.png";
+import patterson from "../../Assets/Projects/patterson.png";
+import tryon from "../../Assets/Projects/tryon.png";
+//import mobileopera from "../../Assets/Projects/mobileopera.png";
+import metgala from "../../Assets/Projects/metgala.png";
+import dk from "../../Assets/Projects/dk.png";
+import burnett from "../../Assets/Projects/burnett.png";
+import persona from "../../Assets/Projects/persona.png";
 
 function Projects() {
   return (
@@ -16,70 +19,99 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          A <strong className="purple">storied</strong> career
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
+
+        <p style={{ color: "white" }}>and a sampling of things</p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={iw}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Infinite Window"
+              description="A patented codec to stream realtime from Unity or unreal. With a 3ms latency we enable instant photoreal connection to build any world you can imagine."
+              // link=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={virtualwing}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="The Virtual Wing"
+              description="Meta's first location based XR experience. I launched it with Tate Britian and Covid killed our MoMA launch unfortunately."
+              // link=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={tryon}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Virtual Try-ons"
+              description="A deep dive into computer vision with body and joint detection for digitial fashion."
+              // link=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={patterson}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="A.I. based storytelling"
+              description="I partnered with the worlds best selling author to bring one of his books to life through NLP"
+              // link=""
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={samsung}
+              isBlog={false}
+              title="Samsung Storytellers"
+              description="The largest creator based content program to come to life across our surfaces"
+              link=""
+            />
+          </Col> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={persona}
+              isBlog={false}
+              title="Persona Designer"
+              description="Utilizing GPT-3, Wit.ai and connecting to personality databases to define jungian archetypes we allow any business, celebrity or person to recreate their own personality in text through A.I. "
+              // link=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={metgala}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Met Gala"
+              description="Meta's first ever live 360 broadcast -- a strange experience on many levels."
+              // link=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={12} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={burnett}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="commercials, commercials commercials"
+              description="A producer and director on so many spots. Coca Cola, Nintendo, Sprint, Allstate, McDonalds, etc."
+              link="https://vimeo.com/brianpfox"
+            />
+          </Col>
+
+          <Col md={12} className="project-card">
+            <ProjectCard
+              imgPath={dk}
+              isBlog={false}
+              title="Development Director and Director of Innovation on a number of TV shows."
+              description="Brokered unprecendented retainer relationships for multiple TV shows from Steven Spielberg and David Goyer"
+              // link=""
             />
           </Col>
         </Row>
