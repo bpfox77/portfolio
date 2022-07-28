@@ -44,6 +44,9 @@ function Footer() {
               </a>
             </li>
           </ul>
+          {/* <Col md="4" className="social-icons">
+            <h3>Photo by Nam Jun Paik</h3>
+          </Col> */}
         </Col>
       </Row>
     </Container>

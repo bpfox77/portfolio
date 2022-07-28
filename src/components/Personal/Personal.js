@@ -1,12 +1,12 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./PersonalCards";
-import Particle from "../Particle";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ProjectCard from './PersonalCards';
+import Particle from '../Particle';
 
-import now from "../../Assets/Projects/now.png";
-import stars from "../../Assets/Projects/stars.jpg";
-import alex from "../../Assets/Projects/alex.png";
-import dodger from "../../Assets/Projects/dodger.png";
+import now from '../../Assets/Projects/now.png';
+import stars from '../../Assets/Projects/stars.jpg';
+import alex from '../../Assets/Projects/alex.png';
+import dodger from '../../Assets/Projects/dodger.png';
 
 function Personal() {
   return (
@@ -19,7 +19,7 @@ function Personal() {
 
         {/* <p style={{ color: "white" }}>and a sampling of things</p> */}
 
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={8} className="project-card">
             <ProjectCard
               imgPath={now}

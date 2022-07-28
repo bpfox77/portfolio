@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import virtualwing from "../../Assets/Projects/virtualwing.png";
+import virtualwing from "../../Assets/Projects/VirtualWing.png";
 import iw from "../../Assets/Projects/iw.png";
 import patterson from "../../Assets/Projects/patterson.png";
 import tryon from "../../Assets/Projects/tryon.png";
