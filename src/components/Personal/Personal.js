@@ -26,7 +26,7 @@ function Personal() {
               isBlog={false}
               title="Now"
               description="Creator / Developer of this Neuroscience Based Web3 Philanthropic game and DAO. "
-              link="https://github.com/bpfox77/indraWhitepaper/blob/917cda0b5742145774ccfa1910661d4b7d9c74f9/Change.pdf"
+              link="https://now.dao.io"
             />
           </Col>
 
