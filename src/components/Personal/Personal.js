@@ -26,7 +26,7 @@ function Personal() {
               isBlog={false}
               title="Now"
               description="Creator / Developer of this Neuroscience Based Web3 Philanthropic game and DAO. "
-              link="https://now.dao.io"
+              link="https://now-dao.io"
             />
           </Col>
 
