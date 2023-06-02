@@ -1,9 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-//import homeLogo from "../../Assets/home-main.svg";
-
-import Home2 from "./Home2";
-import Type from "./Type";
 
 function Home() {
   return (
@@ -14,18 +10,22 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                {/* Hi There!{" "} */}
+              
               </h1>
               <h1 className="heading-name">
-                <strong className="main-name"> Brian P. Fox</strong>
+              <strong className="main-name"> def rebirth (time):</strong> <br />
+                me = self.brian_fox
                 <br />
-                Innovation Lead <br /> Producer <br /> Product @ Meta
+                done_things = innovation_lead<br />
+                creative_director<br />
+                producer<br />
+                founder<br />
               </h1>
 
               <div
                 style={{ paddingLeft: 50, paddingTop: 1, textAlign: "left" }}
               >
-                <Type />
+         return <strong className="main-name">coming soon</strong>
               </div>
             </Col>
 
@@ -35,7 +35,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+    
     </section>
   );
 }

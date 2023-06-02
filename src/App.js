@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Personal from "./components/Personal/Personal";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
 // change to hashrouteer for fleek
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
@@ -30,7 +30,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
+        {/* <Navbar /> */}
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
@@ -39,7 +39,7 @@ function App() {
           <Route path="/personal" component={Personal} />
           <Route path="/resume" component={Resume} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
