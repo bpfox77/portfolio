@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './PersonalCards';
-import Particle from '../Particle';
+
 
 import now from '../../Assets/Projects/now.png';
 import stars from '../../Assets/Projects/stars.jpg';
@@ -11,7 +11,7 @@ import dodger from '../../Assets/Projects/dodger.png';
 function Personal() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+   
       <Container>
         <h1 className="project-heading">
           How I <strong className="purple">spend time</strong>

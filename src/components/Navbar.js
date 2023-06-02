@@ -5,9 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 //import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { GiFoxHead, GiGooeyEyedSun, GiDreamCatcher } from "react-icons/gi";
-import { ImRocket } from "react-icons/im";
-import { GoBeaker } from "react-icons/go";
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -48,7 +46,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <GiFoxHead style={{ marginBottom: "2px" }} /> Home
+                 Home
               </Nav.Link>
             </Nav.Item>
 
@@ -58,7 +56,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <GiGooeyEyedSun style={{ marginBottom: "2px" }} /> About
+               About
               </Nav.Link>
             </Nav.Item>
 
@@ -68,7 +66,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <ImRocket style={{ marginBottom: "2px" }} /> Work Projects
+                 Work Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -82,7 +80,7 @@ function NavBar() {
                 to="/personal"
                 onClick={() => updateExpanded(false)}
               >
-                <GiDreamCatcher style={{ marginBottom: "2px" }} /> Personal
+                 Personal
                 Projects
               </Nav.Link>
             </Nav.Item>
@@ -93,7 +91,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <GoBeaker style={{ marginBottom: "2px" }} /> Resume
+                 Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>

@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 
-import virtualwing from "../../Assets/Projects/VirtualWing.png";
+
+import virtualwing from "../../Assets/Projects/virtualwing.png";
+
 import iw from "../../Assets/Projects/iw.png";
 import patterson from "../../Assets/Projects/patterson.png";
 import tryon from "../../Assets/Projects/tryon.png";
@@ -16,7 +17,7 @@ import persona from "../../Assets/Projects/persona.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+
       <Container>
         <h1 className="project-heading">
           A <strong className="purple">storied</strong> career
