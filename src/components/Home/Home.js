@@ -7,7 +7,7 @@ import stars from '../../Assets/Projects/stars.jpg';
 import SEEKER1 from "../../Assets/Projects/SEEKER1.png";
 import virtualwing from "../../Assets/Projects/virtualwing.png";
 import texttohuman from "../../Assets/Projects/texttohuman.png";
-import iw from "../../Assets/Projects/iw.png";
+// import iw from "../../Assets/Projects/iw.png";
 import patterson from "../../Assets/Projects/patterson.png";
 import tryon from "../../Assets/Projects/tryon.png";
 import mobileopera from "../../Assets/Projects/mobileopera.png";
@@ -23,7 +23,7 @@ import samsung from '../../Assets/Projects/samsung.png';
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="project-section">
     
         <Container className="home-content">
           <Row>

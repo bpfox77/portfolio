@@ -400,7 +400,7 @@ html {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  /* padding-top: 5px !important; */
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -414,7 +414,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px #5ff87e !important;
+  box-shadow:  0 2px 2px 2px #5ff87e !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -424,7 +424,7 @@ html {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #5ff87e !important;
+  box-shadow: 0 3px 3px 3px #5ff87e !important;
 }
 
 .blog-card {
