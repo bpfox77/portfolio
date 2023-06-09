@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./HomeCards";
+import { FaLinkedinIn } from 'react-icons/fa';
 
 import metaImg from '../../Assets/Projects/meta.png';
 import stars from '../../Assets/Projects/stars.jpg';
@@ -32,24 +33,30 @@ function Home() {
               
               </h1>
               <h1 className="heading-name">
-                <strong className="main-name">Brian_Fox </strong>: <br />
+            <strong className="main-name">Brian_Fox </strong>  <br />
             
-                {/* <br /> */}
-                {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong className="main-name">done_things</strong> = <br /> */}
                 &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp; inventor<br />
                         &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;       creative_director<br />
                         &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;   producer<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;     founder_developer<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;     founder<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;     developer<br />
                         &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;      author<br />
                         &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;      filmmaker<br />
+                        <a className="linkedin-body"
+                href="https://www.linkedin.com/in/brianfox/"
+                // style={{ color: 'white' }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a> 
               </h1>
-
+             
            
             </Col>
-
-            {/* <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
-            </Col> */}
+        
+      
+       
           </Row>
       
         
