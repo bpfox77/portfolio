@@ -68,7 +68,7 @@ function Home() {
               isBlog={false}
               title="The whole game"
               description="You should understand my contribution to this patent. It's big."
-              // link=""
+              link="https://www.businessinsider.com/meta-secures-patent-for-ai-generated-ads-optimized-advertising-2023-5"
             />
           </Col>
 
@@ -78,7 +78,7 @@ function Home() {
               isBlog={false}
               title="Purusha"
               description="Monetized Conversational agent patented 3 years prior to ChatGPT. Initially built on GPT2 and evolved with every update"
-              // link=""
+              link="https://www.dropbox.com/s/53463e5ekijnkay/Purusha.mov?dl=0"
             />
           </Col>
 
@@ -98,7 +98,7 @@ function Home() {
               isBlog={false}
               title="Full Project Coming Soon"
               description="Text to Meta Human is just one aspect of the most advanced prompt based XR/AI experiences I've seen out there"
-              // link=""
+              link="https://www.dropbox.com/s/t05jp4thif00kfk/TEXT2VR_VF_VO.mov?dl=0"
             />
           </Col>
 
@@ -108,7 +108,7 @@ function Home() {
               isBlog={false}
               title="Founder / Developer"
               description="Now DAO is a neuroscience based philothropic web3 ecosystem with a game and NFT collection"
-              // link=""
+              link="https://now-dao.io"
             />
           </Col>
           <Col md={6} className="project-card">
@@ -117,7 +117,7 @@ function Home() {
               isBlog={false}
               title="The Virtual Wing"
               description="Meta's first location based XR experience. I launched it with Tate Britian and Covid killed our MoMA launch unfortunately."
-              // link=""
+              link="https://www.dropbox.com/s/ycbp32rsf5hzs94/TatePOI_CaseStudy_SR_AudioTitlesGrade_001.mp4?dl=0"
             />
           </Col>
 
@@ -137,7 +137,7 @@ function Home() {
               isBlog={false}
               title="A.I. based storytelling"
               description="In 2017 I partnered with the worlds best selling author to bring one of his books to life through NLP"
-              // link=""
+              link="https://www.dropbox.com/s/pj6yvvqx9h610r5/Patterson_043019.mp4?dl=0"
             />
           </Col>
 
@@ -158,7 +158,7 @@ function Home() {
               isBlog={false}
               title="Social Opera"
               description="I developed the definitve non-linear framework for atomized content across Meta's platforms and watched the team bring it expertly to life in LATAM"
-              // link=""
+              link="https://www.dropbox.com/s/wzpg3aezfonqibp/MobileOpera.MP4?dl=0"
             />
           </Col>
 
@@ -168,7 +168,7 @@ function Home() {
               isBlog={false}
               title="Met Gala"
               description="Meta's first ever live 360 broadcast -- a strange experience on many levels."
-              // link=""
+              link="https://www.adweek.com/performance-marketing/fashion-lovers-can-watch-the-met-gala-thanks-to-vogues-360-degree-livestream-on-facebook/"
             />
           </Col>
 
@@ -178,7 +178,7 @@ function Home() {
               isBlog={false}
               title="Samsung Storytellers"
               description="The largest creator based content program to come to life across our surfaces"
-              link=""
+              link="https://www.dropbox.com/s/wkel01sgvgg7m4e/SS_CASESTUDY_V2_FINAL.mov?dl=0"
             />
           </Col>
 
