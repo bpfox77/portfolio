@@ -44,7 +44,7 @@ function Home() {
                         &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;      filmmaker<br />
                         <a className="linkedin-body"
                 href="https://www.linkedin.com/in/brianfox/"
-                // style={{ color: 'white' }}
+                
                 target="_blank"
                 rel="noopener noreferrer"
               >
