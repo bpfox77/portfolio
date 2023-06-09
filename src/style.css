@@ -15,7 +15,7 @@ html {
 }
 @media screen and (max-width: 575px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -58,18 +58,18 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #000;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(41, 40, 44, 0.959);
+  background: #5ff87e;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(130, 211, 235, 0.911);
+  background: #5ff87e;
   border-radius: 12px;
 }
 
@@ -213,7 +213,8 @@ html {
 
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 5px !important;
+  padding-bottom: 40px !important;
 }
 
 .home-section {
@@ -222,7 +223,7 @@ html {
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 5px !important;
 }
 
 .home-content {
@@ -237,8 +238,9 @@ html {
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 2em !important;
   padding-left: 45px !important;
+  
 }
 
 .main-name {
@@ -412,7 +414,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px #5ff87e !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -422,7 +424,7 @@ html {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #5ff87e !important;
 }
 
 .blog-card {
@@ -435,7 +437,7 @@ html {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px #5ff87e !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -453,7 +455,7 @@ html {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px #5ff87e !important;
 }
 
 .card-img-top {
@@ -469,9 +471,9 @@ html {
 }
 
 .btn-primary {
-  color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  color: #000 !important;
+  background-color: #5ff87e !important;
+  border-color: #5ff87e !important;
 }
 
 .btn-primary:hover {
