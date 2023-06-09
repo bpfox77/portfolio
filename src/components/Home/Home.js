@@ -32,9 +32,9 @@ function Home() {
               
               </h1>
               <h1 className="heading-name">
-               def <strong className="main-name">Brian_Fox </strong>(time): <br />
-               &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;       me = self.<strong className="main-name">rebirth</strong>
-                <br />
+                <strong className="main-name">Brian_Fox </strong>: <br />
+            
+                {/* <br /> */}
                 {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong className="main-name">done_things</strong> = <br /> */}
                 &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp; inventor<br />
                         &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;       creative_director<br />
@@ -44,12 +44,7 @@ function Home() {
                         &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;      filmmaker<br />
               </h1>
 
-              <div
-                // style={{ paddingLeft: 50, paddingTop: 1, textAlign: "left" }}
-              >
-                <h1 className="heading-name">
-         return <strong className="main-name">coming soon</strong>
-             </h1> </div>
+           
             </Col>
 
             {/* <Col md={5} style={{ paddingBottom: 20 }}>
