@@ -136,7 +136,7 @@ function Home() {
               imgPath={patterson}
               isBlog={false}
               title="A.I. based storytelling"
-              description="I partnered with the worlds best selling author to bring one of his books to life through NLP"
+              description="In 2017 I partnered with the worlds best selling author to bring one of his books to life through NLP"
               // link=""
             />
           </Col>
