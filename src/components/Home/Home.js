@@ -67,9 +67,10 @@ function Home() {
               imgPath={metaImg}
               isBlog={false}
               title="The whole game"
-              description="You should understand my contribution to this patent. It's big."
-              link="https://www.businessinsider.com/meta-secures-patent-for-ai-generated-ads-optimized-advertising-2023-5"
-            />
+              description="You should understand my contribution to this patent. It has major ramifications for you."
+              // link="https://www.businessinsider.com/meta-secures-patent-for-ai-generated-ads-optimized-advertising-2023-5"
+              link="https://patentimages.storage.googleapis.com/e8/55/7f/c2f2b274075639/US20220150553A1.pdf"
+              />
           </Col>
 
           <Col md={6} className="project-card">
@@ -107,7 +108,7 @@ function Home() {
               imgPath={now}
               isBlog={false}
               title="Founder / Developer"
-              description="Now DAO is a neuroscience based philothropic web3 ecosystem with a game and NFT collection"
+              description="Now DAO is a neuroscience based philanthropic web3 ecosystem with a game and NFT collection"
               link="https://now-dao.io"
             />
           </Col>
