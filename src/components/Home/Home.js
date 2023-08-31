@@ -150,21 +150,21 @@ function Home() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={mobileopera}
-                isBlog={false}
-                title="Social Opera"
-                description="I developed the definitve non-linear framework for atomized content across Meta's platforms and watched the team bring it expertly to life in LATAM"
-                link="https://www.dropbox.com/s/wzpg3aezfonqibp/MobileOpera.MP4?dl=0"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
                 imgPath={metgala}
                 isBlog={false}
                 title="Met Gala"
                 description="Meta's first ever live 360 broadcast -- a strange experience on many levels."
                 link="https://www.adweek.com/performance-marketing/fashion-lovers-can-watch-the-met-gala-thanks-to-vogues-360-degree-livestream-on-facebook/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={mobileopera}
+                isBlog={false}
+                title="Social Opera"
+                description="I developed the definitve non-linear framework for atomized content across Meta's platforms and watched the team bring it expertly to life in LATAM"
+                link="https://www.dropbox.com/s/wzpg3aezfonqibp/MobileOpera.MP4?dl=0"
               />
             </Col>
 
