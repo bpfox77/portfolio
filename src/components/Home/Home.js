@@ -12,7 +12,7 @@ import texttohuman from '../../Assets/Projects/ABLE.png';
 import patterson from '../../Assets/Projects/patterson.png';
 import tryon from '../../Assets/Projects/tryon.png';
 import mobileopera from '../../Assets/Projects/mobileopera.png';
-import metgala from '../../Assets/Projects/metgala.png';
+import metgala from '../../Assets/Projects/metgala2.png';
 import dk from '../../Assets/Projects/dk.png';
 import burnett from '../../Assets/Projects/burnett.png';
 import purusha from '../../Assets/Projects/purusha.png';
@@ -28,7 +28,6 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading"></h1>
               <h1 className="heading-name">
                 <strong className="main-name">Brian_Fox </strong> <br />
                 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; inventor
@@ -58,7 +57,7 @@ function Home() {
           </Row>
 
           <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-            <Col md={12} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={metaImg}
                 isBlog={false}
@@ -71,21 +70,21 @@ function Home() {
 
             <Col md={6} className="project-card">
               <ProjectCard
-                imgPath={purusha}
-                isBlog={false}
-                title="Purusha"
-                description="Monetized Conversational agent patented 3 years prior to ChatGPT. Initially built on GPT2 and evolved with every update"
-                link="https://www.dropbox.com/s/53463e5ekijnkay/Purusha.mov?dl=0"
-              />
-            </Col>
-
-            <Col md={6} className="project-card">
-              <ProjectCard
                 imgPath={SEEKER1}
                 isBlog={false}
                 title="Founder / Developer"
                 description="SEEKER is an advanced Mental Health AI mobile application and platform. Patent pending."
                 link="https://seeker-flow.io"
+              />
+            </Col>
+
+            <Col md={6} className="project-card">
+              <ProjectCard
+                imgPath={purusha}
+                isBlog={false}
+                title="Purusha"
+                description="Monetized Conversational agent patented 3 years prior to ChatGPT. Initially built on GPT2 and evolved with every update"
+                link="https://www.dropbox.com/s/53463e5ekijnkay/Purusha.mov?dl=0"
               />
             </Col>
 
@@ -128,7 +127,7 @@ function Home() {
               />
             </Col>
 
-            <Col md={4} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={patterson}
                 isBlog={false}
@@ -138,7 +137,7 @@ function Home() {
               />
             </Col>
 
-            <Col md={4} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={stars}
                 isBlog={false}
@@ -148,7 +147,7 @@ function Home() {
               />
             </Col>
 
-            <Col md={4} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={metgala}
                 isBlog={false}
@@ -158,7 +157,7 @@ function Home() {
               />
             </Col>
 
-            <Col md={4} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={mobileopera}
                 isBlog={false}
@@ -168,7 +167,7 @@ function Home() {
               />
             </Col>
 
-            <Col md={4} className="project-card">
+            <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={samsung}
                 isBlog={false}
