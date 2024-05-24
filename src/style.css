@@ -69,7 +69,12 @@ html {
 /* --------- */
 
 .home-header {
-  padding-bottom: 20px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important; /* Ensure this matches the project-card padding */
+  padding-right: 25px !important; /* Ensure this matches the project-card padding */
+  margin-left: 0; /* Ensure no left margin */
+  margin-right: 0; /* Ensure no right margin */
+  border-bottom: 1px solid white; 
 }
 
 .home-section {
@@ -115,6 +120,9 @@ html {
   padding-right: 25px !important;
   height: auto !important;
   margin-bottom: 10px !important; /* Added margin to the bottom */
+  border-bottom: 1px solid white; 
+  margin-left: 0; /* Ensure no left margin */
+  margin-right: 0; /* Ensure no right margin */
 }
 
 .project-card img {
@@ -154,7 +162,7 @@ html {
 
 .linkedin-body {
   position: absolute;
-  top: -10px; /* Adjust as needed */
+  top: 0px; /* Adjust as needed */
   right: 10px; /* Adjust as needed */
 }
 

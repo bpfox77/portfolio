@@ -45,7 +45,7 @@ const projects = [
     imgPath: texttohuman,
     title: 'Text to Human - The Future of Law Enforcement',
     description:
-      'Here i worked with the DOJ, the FBI and Georgetown law to create the most advance training system for law enforcement.',
+      'Here i worked with the DOJ, the FBI and Georgetown law to create the most advanced training system for law enforcement.',
     link: 'https://vimeo.com/852126950',
   },
   {
@@ -90,13 +90,6 @@ const projects = [
       'A fictionalized account of my youth spent searching for enlightment through a prolonged derangement of the senses.',
     link: 'https://www.amazon.com/Stars-Now-Brian-Fox-ebook/dp/B00HZVJYHM',
   },
-  {
-    imgPath: mobileopera,
-    title: 'Mobile Opera',
-    description:
-      "I developed the definitve non-linear framework for atomized content across Meta's platforms and watched the team bring it expertly to life in LATAM",
-    link: 'https://www.dropbox.com/s/wzpg3aezfonqibp/MobileOpera.MP4?dl=0',
-  },
 
   {
     imgPath: dk,
@@ -125,6 +118,13 @@ const projects = [
     description:
       'A feature film depicting the social injustice of false confessions with a bit of fight club thrown in.',
     link: '',
+  },
+  {
+    imgPath: mobileopera,
+    title: 'Mobile Opera',
+    description:
+      "I developed the definitve non-linear framework for atomized content across Meta's platforms and watched the team bring it expertly to life in LATAM",
+    link: 'https://www.dropbox.com/s/wzpg3aezfonqibp/MobileOpera.MP4?dl=0',
   },
   {
     imgPath: samsung,
