@@ -152,6 +152,12 @@ html {
   cursor: pointer !important;
 }
 
+.linkedin-body {
+  position: absolute;
+  top: -10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+}
+
 .linkedin-body a {
   display: block; /* Makes the link a block element */
   width: 50px; /* Sets the width of the link */
