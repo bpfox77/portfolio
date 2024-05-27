@@ -66,7 +66,8 @@ const projects = [
   {
     imgPath: tryon,
     title: 'Virtual Try-on',
-    description: 'A deep dive into computer vision for digitial fashion.',
+    description:
+      "A deep dive into Computer Vision that was integrated into Meta's Codec avatar system.",
     link: '',
   },
   {
@@ -144,7 +145,11 @@ function Home() {
             <Col md={12} className="home-header">
               <h1 className="heading-name">
                 <strong className="main-name">Brian Fox </strong>
-                - a history of world's first innovations <br />
+                <br />
+                <span className="sub-heading">
+                  A history of world's first innovations
+                </span>{' '}
+                <br />
                 {/* inventor, founder, developer, creative_director, producer,
                 author, filmmaker
                 <br /> */}
