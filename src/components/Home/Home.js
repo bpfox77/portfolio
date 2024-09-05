@@ -146,10 +146,7 @@ function Home() {
               <h1 className="heading-name">
                 <strong className="main-name">Brian Fox </strong>
                 <br />
-                <span className="sub-heading">
-                  A history of world's first innovations
-                </span>{' '}
-                <br />
+                <span className="sub-heading">Building the future</span> <br />
                 {/* inventor, founder, developer, creative_director, producer,
                 author, filmmaker
                 <br /> */}
