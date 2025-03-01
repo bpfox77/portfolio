@@ -24,7 +24,7 @@ const projects = [
     imgPath: SEEKER1,
     title: 'Founder / CEO',
     description:
-      'SEEKER a gamified intelligence network for mental health and peak performance.',
+      'SEEKER a patented intelligence network for mental health and to protect against what is now being termed "Consensual Telepathy".',
     link: 'https://seeker-flow.io',
   },
   {
@@ -120,20 +120,20 @@ const projects = [
       'A feature film depicting the social injustice of false confessions with a bit of fight club thrown in.',
     link: '',
   },
-  {
-    imgPath: mobileopera,
-    title: 'Mobile Opera',
-    description:
-      "I developed the definitve non-linear framework for atomized content across Meta's platforms and watched the team bring it expertly to life in LATAM",
-    link: 'https://www.dropbox.com/s/wzpg3aezfonqibp/MobileOpera.MP4?dl=0',
-  },
-  {
-    imgPath: samsung,
-    title: 'Samsung',
-    description:
-      "The largest creator based content program to come to life across Meta's surfaces.",
-    link: 'https://www.dropbox.com/s/wkel01sgvgg7m4e/SS_CASESTUDY_V2_FINAL.mov?dl=0',
-  },
+  // {
+  //   imgPath: mobileopera,
+  //   title: 'Mobile Opera',
+  //   description:
+  //     "I developed the definitve non-linear framework for atomized content across Meta's platforms and watched the team bring it expertly to life in LATAM",
+  //   link: 'https://www.dropbox.com/s/wzpg3aezfonqibp/MobileOpera.MP4?dl=0',
+  // },
+  // {
+  //   imgPath: samsung,
+  //   title: 'Samsung',
+  //   description:
+  //     "The largest creator based content program to come to life across Meta's surfaces.",
+  //   link: 'https://www.dropbox.com/s/wkel01sgvgg7m4e/SS_CASESTUDY_V2_FINAL.mov?dl=0',
+  // },
 ];
 
 function Home() {
@@ -143,22 +143,29 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={12} className="home-header">
-              <h1 className="heading-name">
-                <strong className="main-name">Brian Fox </strong>
-                <br />
-                <span className="sub-heading">Building the Future</span> <br />
-                {/* inventor, founder, developer, creative_director, producer,
-                author, filmmaker
-                <br /> */}
-                <a
-                  className="linkedin-body"
-                  href="https://www.linkedin.com/in/brianfox/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </h1>
+              <div className="heading-container">
+                <h1 className="heading-name">
+                  <strong className="main-name">Brian Fox</strong>
+                  <span className="sub-heading2">
+                    Building the Future - The Medium is the Message
+                  </span>
+                  <span className="sub-heading">
+                    An author, filmmaker, musician and creative technologist, I
+                    spent 7 years at Meta working on creative applications for
+                    language and vision models and have spent the last two years
+                    building an AI focused on story science through the lens of
+                    human psychology and neuroscience.
+                  </span>
+                  <a
+                    className="linkedin-body"
+                    href="https://www.linkedin.com/in/brianfox/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedinIn />
+                  </a>
+                </h1>
+              </div>
             </Col>
           </Row>
           <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
