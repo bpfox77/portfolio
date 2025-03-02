@@ -38,14 +38,14 @@ const projects = [
     imgPath: purusha,
     title: 'Purusha',
     description:
-      'Monetized Conversational agent patented 3 years prior to ChatGPT. Initially built on GPT2 and evolved with every update',
+      'Monetized Conversational agent 3 years prior to ChatGPT. Initially built on GPT2 and evolved with every update',
     link: 'https://www.dropbox.com/s/53463e5ekijnkay/Purusha.mov?dl=0',
   },
   {
     imgPath: texttohuman,
     title: 'Text to Human - The Future of Law Enforcement',
     description:
-      'Here i worked with the DOJ, the FBI and Georgetown law to create the most advanced training system for law enforcement.',
+      'Here i worked with the DOJ, the FBI, Georgetown Law and <a href="https://www.specialguestx.com/" target="_blank" rel="noopener noreferrer">Special Guest X</a> to create the most advanced training system for law enforcement.',
     link: 'https://vimeo.com/852126950',
   },
   {
@@ -60,7 +60,7 @@ const projects = [
     imgPath: patterson,
     title: 'A.I. based storytelling',
     description:
-      'In 2017 I partnered with the worlds best selling author to bring one of his books to life through NLP.',
+      'In 2017 I partnered with the worlds best selling author and <a href="https://www.1stavemachine.com/" target="_blank" rel="noopener noreferrer">1stAveMachine</a> to bring one of his books to life through NLP.',
     link: 'https://www.dropbox.com/s/pj6yvvqx9h610r5/Patterson_043019.mp4?dl=0',
   },
   {
@@ -152,9 +152,9 @@ function Home() {
                   <span className="sub-heading">
                     An author, filmmaker, musician and creative technologist, I
                     spent 7 years at Meta working on creative applications for
-                    language and vision models and have spent the last two years
-                    building an AI focused on story science through the lens of
-                    human psychology and neuroscience.
+                    language and vision models and mixed realities. I have spent
+                    the last two years building an AI focused on story science
+                    through the lens of human psychology and neuroscience.
                   </span>
                   <a
                     className="linkedin-body"
@@ -174,7 +174,9 @@ function Home() {
                 <Row>
                   <Col md={6} xs={12}>
                     <h3 className="project-title">{project.title}</h3>
-                    <p>{project.description}</p>
+                    <p
+                      dangerouslySetInnerHTML={{ __html: project.description }}
+                    />
                     <a
                       href={project.link}
                       target="blank"

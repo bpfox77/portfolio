@@ -284,3 +284,14 @@ html {
   margin-bottom: 8px !important; /* More space for this specific break */
   line-height: 1.2;
 }
+
+.project-card p a {
+  color: #5ff87e; /* Match your theme color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-card p a:hover {
+  color: #78df86; /* Slightly different shade for hover */
+  text-decoration: underline;
+}
